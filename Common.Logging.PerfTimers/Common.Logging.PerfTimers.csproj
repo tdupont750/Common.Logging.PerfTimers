@@ -43,7 +43,7 @@
     <Compile Include="PerfTimerLogger.cs" />
     <Compile Include="LogExtensions.cs" />
     <Compile Include="PerfDeviationTimerLogger.cs" />
-    <Compile Include="PerfEllapsedTimerLogger.cs" />
+    <Compile Include="PerfElapsedTimerLogger.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

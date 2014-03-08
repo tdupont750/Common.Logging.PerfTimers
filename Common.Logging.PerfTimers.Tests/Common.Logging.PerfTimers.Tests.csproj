@@ -46,7 +46,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PerfEllapsedTimerTests.cs" />
+    <Compile Include="PerfElapsedTimerTests.cs" />
     <Compile Include="PerfTimersTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -27,21 +27,21 @@ namespace Common.Logging
             return new PerfDeviationTimerLogger(logger, map, key, format, args);
         }
 
-        public static PerfTimerLogger PerfEllapsedTimer(
+        public static PerfTimerLogger PerfElapsedTimer(
             this ILog logger,
             string format,
             params object[] args)
         {
-            return new PerfEllapsedTimerLogger(logger, null, format, args);
+            return new PerfElapsedTimerLogger(logger, null, format, args);
         }
 
-        public static PerfTimerLogger PerfEllapsedTimer(
+        public static PerfTimerLogger PerfElapsedTimer(
             this ILog logger,
             IList<Tuple<LogLevel, TimeSpan>> map,
             string format,
             params object[] args)
         {
-            return new PerfEllapsedTimerLogger(logger, map, format, args);
+            return new PerfElapsedTimerLogger(logger, map, format, args);
         }
     }
 }

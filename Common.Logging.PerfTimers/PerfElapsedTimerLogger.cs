@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace Common.Logging.PerfTimers
 {
-    public class PerfEllapsedTimerLogger : PerfTimerLogger
+    public class PerfElapsedTimerLogger : PerfTimerLogger
     {
         private static IList<Tuple<LogLevel, TimeSpan>> _defaultMap = new[]
         {
@@ -21,7 +21,7 @@ namespace Common.Logging.PerfTimers
                 .ToArray();
         }
 
-        public PerfEllapsedTimerLogger(
+        public PerfElapsedTimerLogger(
             ILog logger,
             IList<Tuple<LogLevel, TimeSpan>> map,
             string format,
